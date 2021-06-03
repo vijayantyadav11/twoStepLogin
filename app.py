@@ -98,7 +98,7 @@ class User:
                     msg['Content-type'] = 'text/html'
                     body = """
                     <b>Your OTP is : """+otp+""" for VijayantOTP</b>
-                    <h2>Time limit is 5 minutes</h2>
+                    <h2>This OTP is valid for 10 minutes</h2>
                     """
                     body = MIMEText(body,'html') # convert the body to a MIME compatible string
                     msg.attach(body) # attach it to your main message
