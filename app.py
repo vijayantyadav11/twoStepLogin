@@ -32,7 +32,7 @@ class User:
                     return response
                 
                 passMsg=""
-                digSet=set([0,1,2,3,4,5,6,7,8,9])
+                digSet=set(['0','1','2','3','4','5','6','7','8','9'])
                 speSet=set(['$','&','@','#','%'])
                 passcheck=[False, False]
                 for ele in userpass:
