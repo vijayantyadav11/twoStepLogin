@@ -34,7 +34,7 @@ class User:
                 passMsg=""
                 digSet=set([0,1,2,3,4,5,6,7,8,9])
                 speSet=set(['$','&','@','#','%'])
-                passcheck=['false','false']
+                passcheck=[False, False]
                 for ele in userpass:
                     if ele in digSet:
                         passcheck[0]=True
